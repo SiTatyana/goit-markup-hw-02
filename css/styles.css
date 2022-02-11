@@ -24,6 +24,7 @@
   --secondary-bg-clr: #f5f4fa;
   --footer-bg-clr: #2f303a;
   --nav-bg-clr: #ffffff;
+  --btn-bg: #f5f4fa;
 }
 
 body {
@@ -77,14 +78,8 @@ body {
   color: var(--secondary-txt-clr);
 }
 
-.nav-links:hover,
-.nav-links:focus {
-  color: #2196f3;
-}
-
-.header-cont,
-.footer-link {
-  ffont-family: var(--main-font);
+.header-cont {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -97,8 +92,12 @@ body {
 
 .header-cont:hover,
 .header-cont:focus,
-.footer-link:hover,
-.footer-link:focus {
+.footer-contacts:hover,
+.ffooter-contacts:focus,
+.footer-adr:hover,
+.footer-adr:focus,
+.nav-links:hover,
+.nav-links:focus {
   color: var(--accent-txt-clr);
 }
 
@@ -182,4 +181,90 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--main-txt-clr);
+}
+
+.radio-btn {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-txt-clr);
+  background: #f5f4fa;
+}
+
+.radio-btn:hover,
+.radio-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-txt-clr);
+}
+
+.cards-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-txt-clr);
+}
+
+.cards-post {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--main-txt-clr);
+}
+
+.footer {
+  background-color: var(--footer-bg-clr);
+}
+
+.footer-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: var(--nav-bg-clr);
+}
+
+.footer-span {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-txt-clr);
+}
+
+.footer-adr {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: var(--nav-bg-clr);
+}
+
+.footer-contacts {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
