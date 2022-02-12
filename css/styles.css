@@ -68,7 +68,7 @@ body {
 }
 
 .nav-links {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -79,7 +79,7 @@ body {
 }
 
 .header-cont {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -102,7 +102,7 @@ body {
 }
 
 .hero {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -128,7 +128,7 @@ body {
 }
 
 .features-title {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -140,7 +140,7 @@ body {
 }
 
 .features-text {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -150,7 +150,7 @@ body {
 
 .about,
 .team {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -162,7 +162,7 @@ body {
 }
 
 .team-title {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -174,7 +174,7 @@ body {
 }
 
 .team-text {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -202,7 +202,7 @@ body {
 }
 
 .cards-title {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -213,7 +213,7 @@ body {
 }
 
 .cards-post {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -247,7 +247,7 @@ body {
 }
 
 .footer-adr {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -259,12 +259,13 @@ body {
 }
 
 .footer-contacts {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 
   color: rgba(255, 255, 255, 0.6);
 }
