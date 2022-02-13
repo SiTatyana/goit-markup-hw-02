@@ -29,8 +29,6 @@
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -54,7 +52,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  color: var(--main-txt-clr);
+  color: var(--secondary-txt-clr);
 }
 
 .nav-span {
@@ -111,7 +109,7 @@ body {
   text-transform: uppercase;
 
   color: var(--nav-bg-clr);
-  /* temporary bgr */
+
   background-color: var(--secondary-txt-clr);
 }
 
@@ -133,7 +131,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--secondary-txt-clr);
@@ -143,7 +140,6 @@ body {
   font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--main-txt-clr);
 }
@@ -156,7 +152,6 @@ body {
   font-size: 36px;
   line-height: 1.12;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-txt-clr);
 }
@@ -168,7 +163,6 @@ body {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-txt-clr);
 }
@@ -178,7 +172,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--main-txt-clr);
 }
@@ -201,9 +194,13 @@ body {
   background-color: var(--accent-txt-clr);
 }
 
+.cards-link {
+  text-decoration: none;
+}
+
 .cards-title {
   font-family: inherit;
-  font-style: normal;
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -214,9 +211,9 @@ body {
 
 .cards-post {
   font-family: inherit;
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 
   color: var(--main-txt-clr);
 }
